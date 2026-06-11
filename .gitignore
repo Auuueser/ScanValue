@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+.codegraph/
+.worktrees/
+*.user
+*.suo
+*.nupkg
+*.zip
+thunderstore/BepInEx/plugins/**/*.dll
+thunderstore-tools/dist/

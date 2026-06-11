@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <GameRoot Condition="'$(GameRoot)' == ''">$(LETHAL_COMPANY_GAME_ROOT)</GameRoot>
+    <BepInExCoreDir Condition="'$(BepInExCoreDir)' == ''">$(BEPINEX_CORE_DIR)</BepInExCoreDir>
+    <GameManagedDir>$(GameRoot)\Lethal Company_Data\Managed</GameManagedDir>
+  </PropertyGroup>
+</Project>
